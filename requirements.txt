@@ -1,0 +1,22 @@
+# Core dependencies
+langchain==0.3.12
+langchain-core==0.3.26
+qdrant-client==1.12.0
+sentence-transformers==3.0.1
+rank-bm25==0.2.2
+unstructured==0.11.0
+httpx==0.27.0
+
+# For PDF processing (using a compatible version)
+pdf2image==1.17.0
+pdfminer.six>=20220524
+
+# For text processing
+tiktoken==0.7.0
+
+# For running local models
+ollama==0.4.6
+
+# Optional but recommended
+numpy==1.26.4
+tqdm==4.66.1
